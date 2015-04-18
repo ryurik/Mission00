@@ -6,31 +6,43 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
-    class Item
+    public class Item
     {
-        private string[] _names = {"Книги",};
-         
-        private string _name;
-        private float _price;
-        private int _quantity;
+        public string Name { get; set; }
+        public double Price{ get; set; }
+        public int Quantity {get ; set; }
 
-        public string Name
+        public double WholeCost()
         {
-            get { return this._name; } 
-            set { this._name = value; }
+            return Price * Quantity;
         }
-        public float Price
+
+        public Item()
         {
-            get { return this._price; }
-            set { this._price = value; }
+            Random rnd = new Random();
+            Name = _names[rnd.Next(_names.Count())];
+            Price = rnd.NextDouble() * 1000; // считаем стоимость товара до 1000 уе
+            Quantity = rnd.Next(1000);
         }
-        public int Quantity {
-            get {return this._quantity;}
-            set { this.Quantity = _quantity; }
-        }
-        public float WholeCost()
+    }
+
+    public struct ItemStruct
+    {
+        public string Name;
+        public double Price;
+        public int Quantity;
+
+        public double WholeCost()
         {
-            return this.Price*this.Quantity;
+            return Price * Quantity;
         }
+
+        public ItemStruct(string Name, double Price, int Quantity)
+        {
+            this.Name = Name;
+            this.Price = Price;
+            this.Quantity = Quantity;
+        }
+        
     }
 }
