@@ -8,6 +8,7 @@ namespace Task2
 {
     public class Item
     {
+
         public string Name { get; set; }
         public double Price{ get; set; }
         public int Quantity {get ; set; }
@@ -15,14 +16,6 @@ namespace Task2
         public double WholeCost()
         {
             return Price * Quantity;
-        }
-
-        public Item()
-        {
-            Random rnd = new Random();
-            Name = _names[rnd.Next(_names.Count())];
-            Price = rnd.NextDouble() * 1000; // считаем стоимость товара до 1000 уе
-            Quantity = rnd.Next(1000);
         }
     }
 
@@ -37,11 +30,11 @@ namespace Task2
             return Price * Quantity;
         }
 
-        public ItemStruct(string Name, double Price, int Quantity)
+        public ItemStruct(string name, double price, int quantity)
         {
-            this.Name = Name;
-            this.Price = Price;
-            this.Quantity = Quantity;
+            Name = name;
+            Price = price;
+            Quantity = quantity;
         }
         
     }

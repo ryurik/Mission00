@@ -5,3 +5,8 @@ C:\Work\Projects\Epam\Mission 0\Task2\bin\Debug\Task2.exe
 C:\Work\Projects\Epam\Mission 0\Task2\bin\Debug\Task2.pdb
 C:\Work\Projects\Epam\Mission 0\Task2\obj\Debug\Task2.exe
 C:\Work\Projects\Epam\Mission 0\Task2\obj\Debug\Task2.pdb
+C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task2\bin\Debug\Task2.exe.config
+C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task2\bin\Debug\Task2.exe
+C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task2\bin\Debug\Task2.pdb
+C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task2\obj\Debug\Task2.exe
+C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task2\obj\Debug\Task2.pdb
