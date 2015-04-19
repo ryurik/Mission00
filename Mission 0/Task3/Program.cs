@@ -25,6 +25,9 @@ namespace Task3
             triangle.ChangeSides(91.93, 86.60, 100.00);
             Console.WriteLine("Тип треугольника со сторонами А={0} B={1} C={2} -- {3}", triangle.A, triangle.B, triangle.C, triangle.ShowTriangleType());
 
+            triangle.ChangeSides(-91.93, -86.60, -100.00);
+            Console.WriteLine("Тип треугольника со сторонами А={0} B={1} C={2} -- {3}", triangle.A, triangle.B, triangle.C, triangle.ShowTriangleType());
+
             Console.ReadKey();
          }
     }

@@ -3,3 +3,4 @@ C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task3\bin\Debug\Task3.exe
 C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task3\bin\Debug\Task3.pdb
 C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task3\obj\Debug\Task3.exe
 C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task3\obj\Debug\Task3.pdb
+C:\RYurik\Projects\.Net1-Epam-\Mission00\Mission 0\Task3\obj\Debug\Task3.csprojResolveAssemblyReference.cache

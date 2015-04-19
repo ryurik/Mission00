@@ -70,7 +70,7 @@ namespace Task3
                 inC = c;
                 return true;
             }
-            inA = inB = inC = 0;
+            // inA = inB = inC = 0; не информативно, если треугольник не существует
             return false;
         }
 
@@ -102,11 +102,11 @@ namespace Task3
 
         public bool ChangeSides(double a, double b, double c)
         {
-            if (!IsValid(a, b, c)) 
-                return false;
+            //if (!IsValid(a, b, c)) 
+            //    return false;
 
             InitTriangleData(a, b, c);
-            return true;
+            return (TriangleType != TriangleTypes.NonValid);
         }
     }
 }
